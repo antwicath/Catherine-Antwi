@@ -13,7 +13,7 @@ def square_perimeter(side: Number) -> Number:
     """
     return 4*side
 
-print (square_perimeter(4))
+print(square_perimeter(4))
 
 
 def square_area(side):
@@ -26,7 +26,7 @@ calculates area of a square from side length
     """
     return side*side
 
-print (square_area(7) )
+print(square_area(7) )
 
 
 

@@ -19,7 +19,7 @@ def rectangle_perimeter(length: Number, breadth: Number) -> Number:
 print(rectangle_perimeter(1, 3))
 
 
-def rectangle_area(length: Number, breadth: Number) -> Number:
+def rectangle_area(length, breadth):
     """
     calculate area of a rectangle from length and breadth
     :param length: the length
@@ -29,10 +29,11 @@ def rectangle_area(length: Number, breadth: Number) -> Number:
     6
     """
     return length * breadth
+
 print(rectangle_area(3, 8))
 
 
-def equilateral_triangle_area(base, height: Number) -> Number:
+def equilateral_triangle_area(base, height):
     """
     calculate area of an equilateral triangle from base and height
     :param base: the base
@@ -42,6 +43,16 @@ def equilateral_triangle_area(base, height: Number) -> Number:
     15
     """
     return 0.5 * base * height
+
+
+def equilateral_triangle_area_alternate(side: Number) -> Number:
+    """
+    calculate the area of equilateral triangle
+    :param side: the side length
+    :return: the area(same unit^2 as side)
+    >>> equilateral_triangle_area_alternate(6)
+    """
+    return (math.sqrt(3)/4) * side * side * side
 
 
 def equilateral_triangle_perimeter(side: Number) -> Number:
@@ -120,6 +131,20 @@ def rhombus_area(diagonal_length_1, diagonal_length_2: Number) -> Number:
 print(rhombus_area(3, 4))
 
 
+def rhombus_area_alternative(base, height: Number) -> Number:
+    """
+    calculate the area of a rhombus
+    :param base: the base length
+    :param height: the height length
+    :return: the area(unit^2 as base and height)
+     >>>rhombus_area_alternative(7,9)
+     63
+    """
+    return base * height
+
+print(rhombus_area_alternative(7, 9))
+
+
 def ellipse_area(radius_1, radius_2: Number) -> Number:
     """
     calculate the area of an ellipse
@@ -168,14 +193,13 @@ def cube_volume(side: Number) -> Number:
     :param side: the side length
     :return: the volume(unit^3 as the side)
     >>>cube_volume(3)
-    11.691342951089922
     """
-    return (math.sqrt(3)/4) * side * side * side
+    return side ** 3
 
 print(cube_volume(3))
 
 
-def pyramid_volume(base,height: Number) -> Number:
+def pyramid_volume(base, height):
     """
     calculate the volume of a pyramid
     :param base: the base
@@ -187,5 +211,3 @@ def pyramid_volume(base,height: Number) -> Number:
     return 1.0/3.0 * base * height
 
 print(pyramid_volume(3, 4))
-
-

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460a2c5-f5d6-47b6-9433-7a48c66b628a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geom_formulae.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW.py" afterPath="$PROJECT_DIR$/HW.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Kate.iml" afterPath="$PROJECT_DIR$/.idea/Kate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NANA.py" afterPath="$PROJECT_DIR$/NANA.py" />
+    <list default="true" id="7460a2c5-f5d6-47b6-9433-7a48c66b628a" name="Default" comment="new2">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment.py" afterPath="$PROJECT_DIR$/assignment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geom_formulae.py" afterPath="$PROJECT_DIR$/geom_formulae.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Kate.iws" />
@@ -30,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HW.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HW.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5322581" vertical-offset="0" max-vertical-offset="372">
+            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="324">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -43,7 +40,7 @@
       <file leaf-file-name="NANA.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NANA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+            <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="216">
               <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
@@ -53,21 +50,19 @@
       <file leaf-file-name="assignment.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1278">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1278">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geom_formulae.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="geom_formulae.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geom_formulae.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1611" max-vertical-offset="3546">
-              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-              <folding>
-                <element signature="e#26#52#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3906">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,16 +80,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assignment.py" />
-        <option value="$PROJECT_DIR$/geom_formulae.py" />
         <option value="$PROJECT_DIR$/NANA.py" />
         <option value="$PROJECT_DIR$/HW.py" />
+        <option value="$PROJECT_DIR$/assignment.py" />
+        <option value="$PROJECT_DIR$/geom_formulae.py" />
+        <option value="$PROJECT_DIR$/Catherine_geom_formulae.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="80" />
+    <option name="y" value="52" />
     <option name="width" value="1301" />
     <option name="height" value="716" />
   </component>
@@ -153,13 +149,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.HW">
+  <component name="RunManager" selected="Python.Catherine_geom_formulae">
     <configuration default="false" name="HW" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,6 +224,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Kate" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geom_formulae.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Catherine_geom_formulae" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Kate" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Catherine_geom_formulae.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -353,18 +368,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.HW" />
       <item index="1" class="java.lang.String" itemvalue="Python.NANA" />
       <item index="2" class="java.lang.String" itemvalue="Python.assignment" />
       <item index="3" class="java.lang.String" itemvalue="Python.geom_formulae" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Catherine_geom_formulae" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.HW" />
-        <item index="1" class="java.lang.String" itemvalue="Python.NANA" />
-        <item index="2" class="java.lang.String" itemvalue="Python.geom_formulae" />
-        <item index="3" class="java.lang.String" itemvalue="Python.assignment" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Catherine_geom_formulae" />
+        <item index="1" class="java.lang.String" itemvalue="Python.geom_formulae" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NANA" />
+        <item index="3" class="java.lang.String" itemvalue="Python.HW" />
+        <item index="4" class="java.lang.String" itemvalue="Python.assignment" />
       </list>
     </recent_temporary>
   </component>
@@ -394,11 +411,15 @@
       <created>1409307844168</created>
       <updated>1409307844168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new2">
+      <created>1409394767838</created>
+      <updated>1409394767838</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="80" width="1301" height="716" extended-state="0" />
+    <frame x="65" y="52" width="1301" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -409,7 +430,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34634146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3437014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -448,6 +469,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HW.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NANA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="216">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1278">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NANA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="216">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1278">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
@@ -467,16 +536,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1278">
           <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geom_formulae.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="3546">
-          <caret line="188" column="24" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
-          <folding>
-            <element signature="e#26#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,16 +560,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="774">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geom_formulae.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1044">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,21 +603,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment.py">
+    <entry file="file://$PROJECT_DIR$/HW.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1278">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geom_formulae.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1611" max-vertical-offset="3546">
-          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-          <folding>
-            <element signature="e#26#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,10 +619,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW.py">
+    <entry file="file://$PROJECT_DIR$/assignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5322581" vertical-offset="0" max-vertical-offset="372">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1278">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geom_formulae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3906">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
