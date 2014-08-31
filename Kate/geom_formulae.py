@@ -193,6 +193,7 @@ def cube_volume(side: Number) -> Number:
     :param side: the side length
     :return: the volume(unit^3 as the side)
     >>>cube_volume(3)
+    27
     """
     return side ** 3
 
@@ -204,10 +205,64 @@ def pyramid_volume(base, height):
     calculate the volume of a pyramid
     :param base: the base
     :param height: the perpendicular height
-    :return:pyramid_volume (unit^3 of base)
+    :return: the volume (unit^3 of base)
     >>>pyramid_volume(3,4)
     4
     """
     return 1.0/3.0 * base * height
 
 print(pyramid_volume(3, 4))
+
+
+def cylinder_volume(radius, height):
+    """
+    calculate the volume of a cylinder
+    :param radius: the radius
+    :param height: the height
+    :return: the volume (unit^3 of radius)
+    >>>cylinder_volume(3,5)
+    141.3716694115407
+    """
+    return pi * radius ** 2 * height
+
+print(cylinder_volume(3, 5))
+
+
+def cone_volume(radius, height):
+    """
+    calculate the volume of a cone
+    :param radius: the radius of the base
+    :param height: the height
+    :return: the volume (unit^3 of radius)
+    >>>cone_volume(3,5)
+    47.1238898038469
+    """
+    return (pi * radius ** 2 * height)/3
+
+print(cone_volume(3, 5))
+
+
+def regular_hexagon_perimeter(side):
+    """
+    calculate the perimeter of a regular hexagon
+    :param side: the side
+    :return: the perimeter (same as the side)
+    >>>regular_hexagon_perimeter(5)
+    30
+    """
+    return 6 * side
+
+print(regular_hexagon_perimeter(5))
+
+
+def regular_hexagon_area(side):
+    """
+    calculate the area of a regular hexagon
+    :param side:  the side
+    :return: the area
+    >>>regular_hexagon_area(5)
+    64.9519052838329
+    """
+    return (3 * math.sqrt(3) * side ** 2) / 2
+
+print(regular_hexagon_area(5))
