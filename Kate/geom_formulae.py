@@ -49,7 +49,7 @@ def equilateral_triangle_area_alternate(side: Number) -> Number:
     """
     calculate the area of equilateral triangle
     :param side: the side length
-    :return: the area(same unit^2 as side)
+    :return: the area(unit^2 from side)
     >>> equilateral_triangle_area_alternate(6)
     """
     return (math.sqrt(3)/4) * side * side * side
@@ -59,7 +59,7 @@ def equilateral_triangle_perimeter(side: Number) -> Number:
     """
     calculate perimeter of an equilateral triangle
     :param side: the side length
-    :return:the perimeter(same unit from side)
+    :return:the perimeter(same unit as side)
     >>>equilateral_triangle_perimeter(6)
     18
     """
@@ -122,7 +122,7 @@ def rhombus_area(diagonal_length_1, diagonal_length_2: Number) -> Number:
     calculate the area of a rhombus
     :param diagonal_length_1: the first diagonal length
     :param diagonal_length_2: the other diagonal length
-    :return: the area(unit^2 as the diagonal length)
+    :return: the area(unit^2 from diagonal length)
     >>>rhombus_area(3,4)
     6
     """
@@ -136,7 +136,7 @@ def rhombus_area_alternative(base, height: Number) -> Number:
     calculate the area of a rhombus
     :param base: the base length
     :param height: the height length
-    :return: the area(unit^2 as base and height)
+    :return: the area(unit^2 from base and height)
      >>>rhombus_area_alternative(7,9)
      63
     """
@@ -150,7 +150,7 @@ def ellipse_area(radius_1, radius_2: Number) -> Number:
     calculate the area of an ellipse
     :param radius_1: the horizontal radius
     :param radius_2: the vertical radius
-    :return:the area(unit^2 as the radius)
+    :return:the area(unit^2 from radius)
     >>>ellipse_area(3,4)
     37.69911184307752
     """
@@ -163,7 +163,7 @@ def sphere_volume(radius: Number) -> Number:
     """
     calculate the volume of a sphere
     :param radius: the radius of the sphere
-    :return: the volume(unit^3 as the radius)
+    :return: the volume(unit^3 from radius)
     >>>sphere_volume(3)
     113.09733552923254
     """
@@ -178,7 +178,7 @@ def cuboid_volume(length, breadth, height: Number) -> Number:
     :param length: the length
     :param breadth: the breadth
     :param height: he height
-    :return: the volume(unit^3 as the length)
+    :return: the volume(unit^3 from length)
     >>>cuboid_volume(3,4,5)
     60
     """
@@ -191,7 +191,7 @@ def cube_volume(side: Number) -> Number:
     """
     calculate the volume of a cube
     :param side: the side length
-    :return: the volume(unit^3 as the side)
+    :return: the volume(unit^3 from side)
     >>>cube_volume(3)
     27
     """
@@ -205,7 +205,7 @@ def pyramid_volume(base, height):
     calculate the volume of a pyramid
     :param base: the base
     :param height: the perpendicular height
-    :return: the volume (unit^3 of base)
+    :return: the volume (unit^3 from base)
     >>>pyramid_volume(3,4)
     4
     """
@@ -219,7 +219,7 @@ def cylinder_volume(radius, height):
     calculate the volume of a cylinder
     :param radius: the radius
     :param height: the height
-    :return: the volume (unit^3 of radius)
+    :return: the volume (unit^3 from radius)
     >>>cylinder_volume(3,5)
     141.3716694115407
     """
@@ -233,7 +233,7 @@ def cone_volume(radius, height):
     calculate the volume of a cone
     :param radius: the radius of the base
     :param height: the height
-    :return: the volume (unit^3 of radius)
+    :return: the volume (unit^3 from radius)
     >>>cone_volume(3,5)
     47.1238898038469
     """
@@ -246,7 +246,7 @@ def regular_hexagon_perimeter(side):
     """
     calculate the perimeter of a regular hexagon
     :param side: the side
-    :return: the perimeter (same as the side)
+    :return: the perimeter (same unit as the side)
     >>>regular_hexagon_perimeter(5)
     30
     """
@@ -259,7 +259,7 @@ def regular_hexagon_area(side):
     """
     calculate the area of a regular hexagon
     :param side:  the side
-    :return: the area
+    :return: the area(unit^2 from side)
     >>>regular_hexagon_area(5)
     64.9519052838329
     """
